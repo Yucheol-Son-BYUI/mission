@@ -1,0 +1,36 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 3em;
+}
+.title{
+    margin: 0 auto;
+    width: 30rem;
+    h1{
+        letter-spacing: 0.1em;
+    }
+    h4{
+        letter-spacing: 0.25em;
+        font-size: 0.8em;
+        color: #006EB6;
+    }
+
+    h1, h4{
+        width: max-content;
+        margin: 0.5em auto;        
+    }
+
+    hr{
+        margin-top: -0.3em;
+    }
+
+}
+
+main{
+    margin: 0 auto;
+    width:30em;
+
+    p, li{
+        line-height: 1.5em;
+    }
+}
