@@ -5,10 +5,15 @@ html{
     font-size: 20px;
 }
 
+body{
+    height: max-content;
+    padding-bottom: 2em;
+}
+
 .frame{
     width: 48em;
     margin: 2.2em auto;
-    height: 100%;
+    height: max-content;
     padding-top: 3em;
     border: solid 1px #898f94;
 }
@@ -37,7 +42,7 @@ html{
 
 main{
     margin: 0 auto;
-    width:30em;
+    width:30rem;
     padding-top: 1em;
     p, li{
         line-height: 1.5em;
@@ -51,4 +56,12 @@ main{
     }
 }
 
-fo
+footer{
+    width: 30em;
+    margin: 0 auto;
+    .logo{
+        display: block;
+        margin: 2.8em auto;
+        width: 8em;
+    }
+}
