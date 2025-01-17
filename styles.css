@@ -66,3 +66,12 @@ footer{
         width: 8em;
     }
 }
+
+.dark{
+    background-color: #333;
+    color: #fff;
+
+    h4{
+        color:#A0D4ED;
+    }
+}
