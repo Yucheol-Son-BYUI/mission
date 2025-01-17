@@ -1,7 +1,16 @@
 html{
+    width: 100%;
+    height: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+.frame{
+    width: 48em;
+    margin: 2.2em auto;
+    height: 100%;
     padding-top: 3em;
+    border: solid 1px #898f94;
 }
 .title{
     margin: 0 auto;
@@ -29,8 +38,17 @@ html{
 main{
     margin: 0 auto;
     width:30em;
-
+    padding-top: 1em;
     p, li{
         line-height: 1.5em;
     }
+    li{
+        margin-top: 1em;
+    }
+
+    p:nth-child(2){
+        font-style: italic;
+    }
 }
+
+fo
